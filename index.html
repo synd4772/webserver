@@ -1,0 +1,16 @@
+<html lang="">
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <div id="num2" style="width: 200px; height:200px; background-color:red">
+            <h1 id="num3" style="display:block;justify-content:center;color:white">
+                hello {:path:}
+            </h1>
+        </div>
+
+        {?path2=="index"-><a href="/shop" style="display: block">shop</a>, else->?}
+        {?path2=="index"-><a href="/test">test</a>, else->?}
+
+    </body>
+</html>
