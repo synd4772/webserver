@@ -33,7 +33,7 @@ def not_find(x, default_html_page):
     x.wfile.write(default_html_page.get_html_code().encode())
 
 
-html_wep_pages = {"shop": shop_page, "test": test}
+html_web_pages = {"shop": shop_page, "test": test}
 
 
 class helloHandler(BaseHTTPRequestHandler):
